@@ -28,10 +28,12 @@
 						<option value="3">Mexico</option>
 					</select>					
 				</div>	
-				<div class="puntaje" class="col-xs-6">
-					<p id="score"></p>
+				<div class="col-xs-6">
+					<p id="Puntaje">Puntaje: <span id="score"></span></p>
 					
 				</div>
+
+
 			</div>
 			<div class="row" id="juego">
 				<div class="cuadro">
@@ -43,9 +45,10 @@
 					</div>
 					<div class="col-xs-7 cuadro-punt">
 						<p><strong>Ingresa su nombre:</strong></p>
-						<input type="text" name="nombre-coder" id="text-coder" class="form-control">
-						<button id="comprobar" class="btn btn-default" type="submit">Comprobar</button>
+						<input type="text" id="text-coder">
+						<button id="comprueba" class="btn btn-default" type="submit">Comprobar</button>
 						<p id="mensaje"></p>
+						<p>Te queda(n): <span id="intentos"></span> intento(s).</p>
 					</div>
 					
 				</div>

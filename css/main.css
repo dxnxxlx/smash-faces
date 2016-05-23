@@ -13,18 +13,21 @@ select{
 	margin: 15px;
 	border: 1px solid black;
 	height: 300px;
+	padding: 20px;
 }
 .cuadro-fotos{
-	background-color: yellow;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
 	height: 298px;
 	border-right: 1px solid black;
 }
 .cuadro-punt{
-	background-color: red;
 	height: 298px;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+
 }
 
+#puntaje{
+	margin-top: 20px;
+}
+
+img{
+	width: 100%;
+}
